@@ -1,4 +1,4 @@
-import { apiKey } from '../main';
+import { apiKey } from '../';
 
 export const downloader = {
     facebookScraper: (link: string): string => `https://api.i-tech.id/dl/fb?key=${apiKey}&link=${link}`,

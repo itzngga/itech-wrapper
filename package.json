@@ -15,10 +15,12 @@
     "node": ">= 10"
   },
   "files": [
-    "dist/*"
+    "dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "prepare": "tsc",
+    "build:all": "tsc",
+    "build:tsc": "tsc"
   },
   "keywords": [
     "wrapper",

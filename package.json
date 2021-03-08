@@ -1,21 +1,24 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "itech-wrapper",
-  "repository": "https://github.com/ItzNgga/itech-wrapper",
   "description": "https://api.i-tech.id wrapper",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "author": {
-    "name": "ItzNgga",
-    "email": "rangganak094@gmail.com",
-    "url": "https://github.com/ItzNgga"
+  "author": "ItzNgga",
+  "bugs": {
+    "url": "https://github.com/ItzNgga/itech-wrapper/issues"
+  },
+  "homepage": "https://github.com/ItzNgga/itech-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzNgga/itech-wrapper.git"
   },
   "engines": {
     "node": ">= 10"
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "scripts": {
     "build": "tsc && typedoc",

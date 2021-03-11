@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "itech-wrapper",
   "description": "https://api.i-tech.id wrapper",
   "main": "dist/index.js",
@@ -21,11 +21,11 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "tsc && typedoc",
+    "build": "tsup src/index.ts --dts --minify && typedoc",
     "prepare": "tsc",
-    "build:all": "tsc && typedoc",
+    "build:all": "tsup src/index.ts --dts --minify && typedoc",
     "build:docs": "typedoc",
-    "build:tsc": "tsc"
+    "build:tsc": "tsup src/index.ts --dts --minify"
   },
   "keywords": [
     "wrapper",
